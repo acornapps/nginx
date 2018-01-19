@@ -1,4 +1,3 @@
-appname: nginx
 builds: []
 variables:
 - name: Image
@@ -13,8 +12,3 @@ variables:
   value: 100m
 - name: LimitMemory
   value: 100Mi
-- name: AppName
-  value: nginx
-- name: UpdatedImage
-  value: nginx:latest
-addons: []
