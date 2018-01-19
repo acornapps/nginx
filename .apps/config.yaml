@@ -1,0 +1,20 @@
+appname: nginx
+builds: []
+variables:
+- name: Image
+  value: nginx:latest
+- name: Replicas
+  value: "1"
+- name: RequestCpu
+  value: 100m
+- name: RequestMemory
+  value: 100Mi
+- name: LimitCpu
+  value: 100m
+- name: LimitMemory
+  value: 100Mi
+- name: AppName
+  value: nginx
+- name: UpdatedImage
+  value: nginx:latest
+addons: []
